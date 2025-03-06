@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color:orange;
+    min-height: 100vh;
+}
+.card{
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    width: 600px;
+    padding: 20px;
+    display: flex;
+}
+.card .card-info{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+.card .card-info .card-content{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.weather-info{
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+.card-weather-icon{
+    animation: move 1s infinite alternate ease-in-out;
+}
